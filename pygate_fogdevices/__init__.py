@@ -8,9 +8,9 @@ from flask import request
 #import os
 #import subprocess
 
-from core.gateway import Gateway
-from core.deviceCounter import DeviceCounter
-from core import config, webServer, cloud
+from pygate_core.gateway import Gateway
+from pygate_core.deviceCounter import DeviceCounter
+from pygate_core import config, webServer, cloud
 
 logger = logging.getLogger('main')
 
